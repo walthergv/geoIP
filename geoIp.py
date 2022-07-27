@@ -1,7 +1,7 @@
 from pwn import *
 import requests, argparse, time
 
-parser=argparse.ArgumentParser('IP Geolocation')
+parser=argparse.ArgumentParser('IP Geolocator')
 parser.add_argument('-ip', '--target',required=True ,help='Specify IP or Domain Name')
 args=parser.parse_args()
 
